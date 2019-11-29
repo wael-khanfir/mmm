@@ -1,0 +1,54 @@
+<?php
+include "../core/volC.php";
+	?>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<script src="bootstrap.min.js"></script>
+</head>
+<body>
+	<?php
+	?>
+	<div class="row justify-content-center" >
+<form action="ajoutervol.php" method="POST">
+	<div class="form-group">
+	<label>id vol</label>
+	<input type="text" name="idVol" class="form-control" value="id">
+</div>
+<div class="form-group">
+	<label>airline</label>
+	<input type="text" name="airline" class="form-control" value="">
+</div>
+<div class="form-group">
+	<label>Country name</label>
+	<input type="text" name="lieu_a" class="form-control" value="">
+</div>
+<div class="form-group">
+	<label>lieu de depart</label>
+	<input type="text" name="lieu_d" class="form-control" value="">
+</div>
+<div class="form-group">
+	<label>date de depart</label>
+	<input type="date" name="date_d" class="form-control" value="">
+</div>
+<div class="form-group">
+	<label>date arrive</label>
+	<input type="date" name="date_r" class="form-control" value="">
+</div>
+<div class="form-group">
+	<label>heure depart</label>
+	<input type="number" name="heure_d" class="form-control" value="">
+</div>
+<div class="form-group">
+	<label>heure arrive</label>
+	<input type="number" name="heure_r" class="form-control" value="">
+</div>
+<div class="form-group">
+	<button type="submit" class="btn btn-primary" name="save">Save</button>
+</div>
+
+</form>
+</div>
+</body>
+</html>
