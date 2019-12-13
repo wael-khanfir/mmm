@@ -44,7 +44,7 @@ include "header.php";
                         <div class="form-row">
 
                             <label for="exampleInputPassword1">image</label>
-                            <input class="form-control" name="image" type=""  required>
+                            <input type="file" name="image" tabindex="4" accept="image/png, image/jpeg"   required>
 
                         </div>
                        

@@ -324,6 +324,9 @@
                             <div class="article-content">
                                 <ul class="blog-list">
                                     <p><?php echo $emp["titre"]; ?><p>
+                                         <blockquote class="blockquote">
+                                    <img class="" width="800" height="800" src="../../entities/image/<?php echo $emp['image']; ?>"></td>
+                                    <i class="flaticon-left-quote"></i>
                                     <p><?php echo $emp["editor1"]; ?><p>
                                     <li>
                                         <i class="fa fa-comments"></i>Comments
@@ -335,8 +338,7 @@
 
                                 
                                 
-                                <blockquote class="blockquote">
-                                    <i class="flaticon-left-quote"></i>
+
                                    
                             </div>
                             <?php
